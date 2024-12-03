@@ -1,0 +1,728 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=DM+Serif+Display:ital@1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Marcellus&family=Mitr:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=DM+Serif+Display:ital@1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Marcellus&family=Mitr:wght@200;300;400;500;600;700&family=Quicksand:wght@300..700&display=swap');
+
+
+.box_section{
+    width: 100%;
+    height: 300px;
+    background-image: url('https://www.teaandcoffee.net/wp-content/uploads/shutterstock_385283863.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box_section::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.nav{
+    color: aliceblue;
+    height: 30px;
+    display: flex;
+    z-index: 99;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.LOGO{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    /* border: 3px solid rgb(146, 77, 77); */
+    z-index: 1
+}
+.logo{
+    width: 80px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.shop{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+.find{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.bars{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.UL{
+    width: 100%;
+    /* border: 3px solid rgb(146, 77, 77); */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top:20px;
+    z-index: 1
+}
+ul li {
+    list-style: none;
+    margin: 0 1rem;
+}
+.li{
+    text-decoration: underline;
+}
+.offer_tag{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.OFFER{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    font-family: "Marcellus", serif;
+    font-weight: 500;
+    font-size: 50px; 
+}
+.offer{
+    background-color:cornflowerblue;
+    width: 450px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center; /* กลางแนวนอน */
+    align-items: center; /* กลางแนวตั้ง */
+    height: 80px;
+}
+.coffee_brands{
+    /* background-color: cadetblue; */
+    width: 100%;
+    height:30px; 
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+    font-family: "Marcellus", serif;
+    font-weight: 200;
+    font-style: normal;
+    color:rgb(38,38,38);
+}
+.line_beans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    margin-top: 40px;
+}
+.hr_1{
+    border-color: cornsilk ;
+    width: 5%;
+    margin:initial ;
+    margin-right: 20px;
+}
+.img_beans{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}  
+.hr_2{
+    border-color: cornsilk ;
+    width: 5%;
+    margin-inline:inherit ;
+    margin-left: 20px;
+}
+.p_text{
+    width: 100%;
+    height: 70px;
+    /* background-color: brown; */
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.p{
+    width: 500px;
+    height: 50px;
+    /* background-color: aqua; */
+    font-family: "Marcellus", serif;
+    font-weight: 100;
+    font-style: normal;
+    color:rgb(38,38,38);
+}
+.container{
+    height: 300px;
+    /* background-color: rgb(234, 220, 164); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ul_con{
+    display: flex;
+}
+.box1{
+    width: 250px;
+    height: 200px;
+    /* background-color: cadetblue; */
+    text-align: center;
+    color:rgb(38,38,38);
+    font-family: "Marcellus", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.latte{
+    /* background-color: aliceblue; */
+    width: 100px;
+    height: 90px;
+}
+.box2{
+    width: 250px;
+    height: 200px;
+    /* background-color: cadetblue; */
+    text-align: center;
+    color:rgb(38,38,38);
+    font-family: "Marcellus", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.different_beans{
+    /* background-color: aliceblue; */
+    width: 100px;
+    height: 90px;
+}
+.box3{
+    width: 250px;
+    height: 200px;
+    /* background-color: cadetblue; */
+    text-align: center;
+    color:rgb(38,38,38);
+    font-family: "Marcellus", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.croissant{
+    /* background-color: aliceblue; */
+    width: 100px;
+    height: 90px;
+}
+.box4{
+    width: 250px;
+    height: 200px;
+    /* background-color: cadetblue; */
+    text-align: center;
+    color:rgb(38,38,38);
+    font-family: "Marcellus", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.cup{
+    /* background-color: aliceblue; */
+    width: 100px;
+    height: 90px;
+}
+.section{
+    background-color: darkgray;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    /* align-items: center; */
+}
+.box_section1{
+    width: 375px;
+    height: 350px;
+    background-color: darkgoldenrod;
+}
+.coffee1{
+    width: 375px;
+    height: 350px;
+}
+.box_section2{
+    width: 375px;
+    height: 350px;
+    background-color:bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box_sec2{
+    width: 375px;
+    height: 250px;
+    position: absolute;
+    opacity: 0.3;
+    background-image: url('https://img.icons8.com/?size=100&id=paaX1gfhAflZ&format=png&color=e7b68b') ;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-size: 200px; 
+    background-position-x: center;
+    background-position-y: center;
+}
+.s2{
+    /* background-color: rgb(227, 134, 20); */
+    width: 150px;
+    text-align: center;
+    z-index: 99;
+}
+.s2_h3{
+    font-family: "Marcellus", serif;
+    font-weight: 100;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+.s2_p{
+    font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 10;
+  font-style: normal;
+}
+.box_section3{
+    width: 375px;
+    height: 350px;
+    background-color: rgb(28, 184, 11);
+    background-image: url('https://crowdroaster.com/images/upload/2023/07/pv9dev5zrfp2k75w3jt4hxrv3m6kbp49.jpg');
+    background-size: cover;
+}
+.box_section4{
+    width: 394px;
+    height: 350px;
+    background-color:bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box_sec4{
+    background-image: url('https://img.icons8.com/?size=100&id=PT3HBgJ1JZEC&format=png&color=e7b68b');
+    background-size: cover;
+    background-size: 250px ;
+    background-repeat: no-repeat;
+    background-position-x: center; 
+    width: 375px;
+    height: 250px;
+    position: absolute;
+    opacity: 0.3;
+}
+.s4{
+    /* background-color: rgb(218, 132, 27); */
+    width: 150px;
+    height: 190px;
+    text-align: center;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+}
+.s4_h3{
+    font-family: "Marcellus", serif;
+    font-weight: 100;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+.s4_p{
+    display: flex;
+    flex-direction: column;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 10;
+  font-style: normal;
+}
+ .S4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+.box_section5{
+    width: 375px;
+    height: 350px;
+    background-color:bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box_sec5{
+    background-image: url('https://img.icons8.com/?size=100&id=jOauiwAkNRNi&format=png&color=e7b68b');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position-x: center;
+    width: 375px;
+    height: 250px;
+    position: absolute;
+    opacity: 0.3;
+}
+.s5{
+    width: 200px;
+    height: 120px;
+    /* background-color: rgb(222, 140, 41); */
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+}
+.s5_h3{
+    text-align: center;
+    font-family: "Marcellus", serif;
+    font-weight: 100;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+.s5_p{
+    width: 200px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10;
+    font-style: normal;
+    /* background-color: aqua; */
+    text-align: center;
+}
+.box_section6{
+    width: 375px;
+    height: 350px;
+    background-color: rgb(184, 11, 184);
+    background-image: url('https://m.media-amazon.com/images/I/71MXyQs+cpL.jpg://m.media-amazon.com/images/I/71AAkwfCG6L.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y:center;
+    background-position-x: right ;
+}
+.box_section7{
+    width: 375px;
+    height: 350px;
+    background-color:bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box_sec7{
+    background-image: url('https://img.icons8.com/?size=100&id=kXVJfZRaJ5HY&format=png&color=e7b68b');
+    background-size: cover;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    width: 375px;
+    height: 250px;
+    position: absolute;
+    opacity: 0.3;
+}
+.s7{
+    width: 200px;
+    /* background-color: rgb(233, 143, 33); */
+}
+.s7_h3{
+    font-family: "Marcellus", serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.s7_p{
+    width: 200px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10;
+    font-style: normal;
+    /* background-color: aqua; */
+    text-align: center;
+}
+.box_section8{
+    width: 394px;
+    height: 350px;
+    background-color: rgb(151, 151, 36);
+    background-image: url('https://esquirescoffee.co.uk/wp-content/uploads/2021/07/pexels-on-shot-2788792.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bottom_nav{
+    height: 250px;
+    /* background-color: darkslategray; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.box1_bottom{
+    width: 200px;
+    height: 100px;
+}
+.box2_bottom{
+    width: 250px;
+    height: 100px;
+}
+.box3_bottom{
+    width: 200px;
+    height: 100px;
+}
+.box4_bottom{
+    width: 200px;
+    height: 100px;
+}
+.box5{
+    width: 200px;
+    height: 100px
+}
+.box6{
+    width: 250px;
+    height: 100px;
+}
+.bottom_box{
+    background-color: aquamarine;
+    background-image: url('https://photo-cdn2.icons8.com/X50csoefpOeQG_jZOoqU7_7uDZROpnZaoS-B3qP9oGU/rs:fit:1827:1072/czM6Ly9pY29uczgu/bW9vc2UtcHJvZC5l/eHRlcm5hbC9hMmE0/Mi80OTk0ZWJkZGFh/NWE0Yzk3YjUxODI1/ZDhhZjZlNTQ4ZC5q/cGc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position-y: center;
+}
+.bottom_box::after{
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.bottom_text{
+    width: 550px;
+    height: 350px;
+    /* background-color: darkgray; */
+    display: flex;
+    align-content: center;
+    flex-direction:column;
+    align-items: center;
+    color: aliceblue;
+    z-index: 1;
+    /* ทำให้ตัวข้อความอยู่เหนือ overlay */
+    align-content:space-evenly;
+    position: absolute;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10;
+    font-style: normal;
+}
+.bottom_logo{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    margin-bottom: 20px;   
+}
+.buttom_p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.STORES{
+    font-family: "Marcellus", serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-bottom: 5px;
+}
+.bottom_text_p{
+    width: 300px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.bottom_input_text{
+    font-family: "Marcellus", serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-top: 5px;
+}
+.bottom_input_box{
+    display: flex;
+    margin-top: 20px;
+}
+.bottom_input{
+    flex-direction: row;
+    width: 300px;
+    height: 25px;
+    border: 1px solid white;
+    background-color:transparent;
+    /* //พื้นหลังโปร่ง */
+    padding-left: 20px;
+}
+.bottom_input::placeholder{
+    color: aliceblue;
+}
+.bottom_email_box{
+    width: 15px;
+    height: 15px;
+}
+.bottom_email_icon{
+    width: 30px;
+    height: 28px;
+    background-color: rgb(252, 254, 253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.end{
+    width: 100%;
+    height: 550px;
+    background-color: rgb(22, 23, 22);
+    align-content: end;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.bottom_end{
+    width: 150px;
+    height: 100px;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.c{
+    width: 10px;
+    height: 10px;
+}
+.end_p{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10;
+    font-style: normal;
+    font-size: small;
+    color: aliceblue;
+}
+.End{
+    display: flex;
+    /* background-color: aliceblue; */
+    height: 100px;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Marcellus", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.home{
+    width: 100px;
+    height: 100px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.about{
+    width: 100px;
+    height: 100px;
+    /* background-color: burlywood; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.shop_end{
+    width: 100px;
+    height: 100px;
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.contact{
+    width: 100px;
+    height: 100px;
+    /* background-color: chocolate; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.ICON{
+    display: flex;
+    width: 280px;
+    height: 100px;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    align-items: center;
+}
+.ICON1{
+    width: 50px;
+    height: 50px;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ig{
+    width: 30px;
+    height: 30px;
+}
+.ICON2{
+    width: 50px;
+    height: 50px;
+    /* background-color: rgb(55, 93, 88); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tw{
+    width: 30px;
+    height: 30px;
+}
+.ICON3{
+    width: 50px;
+    height: 50px;
+    /* background-color: rgb(212, 149, 14); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f{
+    width: 30px;
+    height: 30px;
+}
+.ICON4{
+    width: 50px;
+    height: 50px;
+    /* background-color: rgb(211, 48, 143); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.t{
+    width: 30px;
+    height: 30px;
+}
+.ICON5{
+    width: 50px;
+    height: 50px;
+    /* background-color: rgb(255, 62, 62); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.v{
+    width: 30px;
+    height: 30px;
+}
+.IMG{
+    width: 100px;
+    height: 100px;
+    /* background-color:bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img_end{
+    width: 50px;
+    height: 50px;
+    background-color:burlywood;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    width: 30px;
+    height: 30px;
+}
