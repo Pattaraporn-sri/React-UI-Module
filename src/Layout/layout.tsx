@@ -1,4 +1,4 @@
-import App from "../App";
+
 import Style from './layout.module.css'
 import img_beans from '../image/Beans-coffee.png'
 import logo from '../image/logo2.png'
